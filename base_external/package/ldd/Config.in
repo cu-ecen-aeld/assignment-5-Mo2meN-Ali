@@ -1,0 +1,6 @@
+
+config BR2_PACKAGE_LDD
+	bool "ldd kernel modules"
+	help
+	  Includes the misc-modules and the scull kernel drivers.
+	  Used to understand buildroot external trees and package builds.
